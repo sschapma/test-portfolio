@@ -1,0 +1,34 @@
+body {
+	background-color: #161718;
+	margin-top: 30px;
+}
+
+h1 {
+	color: white;
+}
+
+img {
+    max-width: 200px;
+	max-height: 75px;
+	margin: 0 auto 0 auto;
+}
+
+.logobox {
+	border: solid 1px black;
+	border-radius: 5px;
+	background-color:#0E141A;
+	height: 80px;
+	margin-bottom: 15px;
+}
+
+.logobox:hover {
+	background-color: #303336;
+}
+
+.espn, .dt, .csn {
+	margin-top: 10px;
+}.adult{
+	margin-top: 5px;
+}.net {
+	margin-top: 17px;
+}

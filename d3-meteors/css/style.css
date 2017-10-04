@@ -1,0 +1,65 @@
+body {
+  position: relative;
+  background-color: #A3CCFF;
+  height:100%;
+  width:100%;
+  overflow:hidden;
+}
+.container {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+h1, h2 {
+  font-family: courier, monospace;
+  font-weight: 500;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  top: -20px;
+}
+
+h2 {
+  font-size: 15px;
+  bottom: 5px;
+}
+svg {
+  margin: 30px 0;
+}
+path {
+  stroke: #A3CCFF;
+  stroke-width: 0.5px;
+  fill: #E4ECCE;
+}
+
+.labels {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.meteor {
+  stroke: #2F4B26;
+  stroke-width: 1;
+  fill: #85BDA6;
+  opacity: 0.6;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: auto;
+  padding: 10px 5px;
+  font: 16px sans-serif;
+  line-height: 1.4;
+  background: #2F4B26;
+  border: 0px;
+  border-radius: 8px;
+  display: none;
+  opacity: 0.9;
+  color: #E4ECCE;
+}
